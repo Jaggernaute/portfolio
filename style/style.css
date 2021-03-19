@@ -17,19 +17,20 @@ body{
     color: var(--text-color);
 }
 
-#navbar{
+.navbar{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
 
-#navbar li {
+.navbar li {
     list-style: none;
     color: var(--text-color);
     padding: 10px 15px;
+
 }
 
-#navbar li svg{
+.navbar li svg{
     display: block;
     width: 1.2rem;
     height: 1.2rem;
@@ -39,7 +40,7 @@ body{
     transition: fill .4s ease-out;
 }
 
-#navbar li svg:hover{
+.navbar li svg:hover{
     display: block;
     width: 1.2rem;
     height: 1.2rem;
@@ -49,7 +50,7 @@ body{
     transition: fill .4s ease-out;
 }
 
-#navbar li:hover{
+.navbar li:hover{
     list-style: none;
     color: var(--subtitle-color);
     padding: 10px 15px;
@@ -58,5 +59,4 @@ body{
 #accueil{
     margin: 0 25vw;
     padding: calc(50vh - 3.5rem) 0 0;
-    background-color: blueviolet;
 }

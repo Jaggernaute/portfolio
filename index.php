@@ -38,10 +38,6 @@
     <section id="accueil">
         
         <h1>Test page</h1>
-
-        <p>
-
-        </p>
     </section>
     <?php
         echo "PHP work correctly YAY!";
