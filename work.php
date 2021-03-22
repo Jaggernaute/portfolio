@@ -15,9 +15,9 @@
         <div class="homeBtn"><a></a>.up()</div>
         <ul class="navbar">
             <li><a href="index.php">.me()</a></li>
-            <li><a href="work.php">.work()</a></li>
+            <li class="act"><a>.work()</a></li>
             <li><a href="info.php">.info()</a></li>
-            <li class="act"><a href="contact.php">.get()</a></li>
+            <li><a href="contact.php">.get()</a></li>
             <li>
                 <a href="https://github.com/Jaggernaute/">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" class="ico">

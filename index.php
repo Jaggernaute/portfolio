@@ -15,8 +15,8 @@
             <div class="homeBtn"><a></a>.up()</div>
             <ul class="navbar">
                 <li class="act"><a href="index.php">.me()</a></li>
-                <li><a>.work()</a></li>
-                <li><a>.info()</a></li>
+                <li><a href="work.php">.work()</a></li>
+                <li><a href="info.php">.info()</a></li>
                 <li><a href="contact.php">.get()</a></li>
                 <li>
                     <a href="https://github.com/Jaggernaute/">

@@ -46,6 +46,7 @@ body{
 }
 
 a{
+    text-decoration: none;
     color: var(--text-color);
     padding: 10px 15px;
     top: 2px;
