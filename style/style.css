@@ -1,7 +1,7 @@
 :root{
     --main-color : #0E1212;
     --second-color : #686571;
-    --accent-color : #5918DF;
+    --accent-color : #5918df;
     --text-color : #656666;
     --subtitle-color: #D489FF;
     --title-color: #DBDBDB;
@@ -10,6 +10,10 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    min-height: 0;
+    min-width: 0;
+    font-family: inherit;
 }
 
 body{
@@ -19,19 +23,37 @@ body{
 
 .navbar{
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
+    flex-direction: row;
+    max-width: 80rem;
 }
 
-.navbar li {
+.Dnavbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 3rem;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.navbar li{
+    display: flex;
+    text-decoration: none;
     list-style: none;
+    color: var(--text-color) !important;
+    padding: 10px 15px;
+}
+
+a{
     color: var(--text-color);
     padding: 10px 15px;
-
+    top: 2px;
 }
 
 .navbar li svg{
-    display: block;
+    display: flex;
+    flex-direction: row;
     width: 1.2rem;
     height: 1.2rem;
     fill: var(--accent-color);
@@ -50,13 +72,20 @@ body{
     transition: fill .4s ease-out;
 }
 
-.navbar li:hover{
+.navbar li a:hover{
     list-style: none;
-    color: var(--subtitle-color);
+    color: var(--accent-color   );
+    top: 2px;
+    transition: color .4s ease-out;
     padding: 10px 15px;
 }
 
+.act a{
+    text-decoration: none;
+    color: var(--accent-color);
+}
 #accueil{
     margin: 0 25vw;
     padding: calc(50vh - 3.5rem) 0 0;
+    background-color: var(--second-color);
 }
