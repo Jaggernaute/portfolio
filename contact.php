@@ -40,7 +40,30 @@
 
 <section id="accueil">
 
-    <h1>Test page</h1>
+    <form action="app/querry/contact_core.php" method="post">
+        <label for="fname">Prenom:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="votre prenom.."><br>
+        <label for="lname">Nom:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="votre nom.."><br>
+        <label for="mail">e-mail:</label><br>
+        <input type="text" id="mail" name="mail" placeholder="votre mail.."><br>
+        <label for="adr">Adresse:</label><br>
+        <input type="text" id="adr" name="adr" placeholder="votre adresse.."><br>
+        <label for="tel">Telephone:</label><br>
+        <input type="text" id="tel" name="tel" placeholder="votre numero de tlephone.."><br>
+
+        <label for="msg">Message:</label><br>
+        <textarea name="msg" id="msg" placeholder="votre message" rows="10" cols="30">
+                </textarea>
+
+        <label for="idcontact">Information: </label>
+        <input type="radio" id="idcontact" name="contact" value="info">
+
+        <label for="mail">Devis: </label>
+        <input type="radio" id="idcontact" name="contact" value="devis">
+
+        <button class="button" onclick="alert('votre message a bien été envoyé !')">envoyer</button>
+    </form>
 </section>
 <?php
 echo "PHP work correctly YAY!";

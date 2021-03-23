@@ -7,6 +7,11 @@
     --title-color: #DBDBDB;
 }
 
+@font-face {
+    font-family: "Roboto Medium";
+    src: url("font/Roboto-Medium.ttf");
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -19,6 +24,7 @@
 body{
     background-color: var(--main-color);
     color: var(--text-color);
+    font-family: 'Roboto Medium', Arial, sans-serif ;
 }
 
 .navbar{
@@ -88,5 +94,8 @@ a{
 #accueil{
     margin: 0 25vw;
     padding: calc(50vh - 3.5rem) 0 0;
-    background-color: var(--second-color);
+}
+
+.id svg{
+    position: absolute;
 }

@@ -39,7 +39,10 @@
     </section>
 
     <section id="accueil">
-        
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="5" cy="20" r="2" fill="#5918df" />
+            <line x1="5" y1="80" x2="5" y2="20" stroke="#5918df" />
+        </svg>
         <h1>Test page</h1>
     </section>
     <?php
